@@ -1,0 +1,57 @@
+/*normalize.css*/
+@import url(../vendor/normalize.css);
+
+/*fonts-file*/
+@import url(../vendor/fonts.css);
+
+/*page-file*/
+@import url(../blocks/page/page.css);
+
+/*header-files*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__wrapper/header__wrapper.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__list/header__list.css);
+
+/*intro-files*/
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__image/intro__image.css);
+@import url(../blocks/intro/__inscription/intro__inscription.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__wrapper/intro__wrapper.css);
+
+/*forest-files*/
+@import url(../blocks/forest/forest.css);
+@import url(../blocks/forest/__container/forest__container.css);
+@import url(../blocks/forest/__image/forest__image.css);
+@import url(../blocks/forest/__paragraph/forest__paragraph.css);
+@import url(../blocks/forest/__title/forest__title.css);
+@import url(../blocks/forest/__wrapper/forest__wrapper.css);
+
+/*mountains-files*/
+@import url(../blocks/mountains/mountains.css);
+@import url(../blocks/mountains/__image/mountains__image.css);
+@import url(../blocks/mountains/__paragraph/mountains__paragraph.css);
+@import url(../blocks/mountains/__title/mountains__title.css);
+@import url(../blocks/mountains/__wrapper/mountains__wrapper.css);
+
+/*sea-files*/
+@import url(../blocks/sea/sea.css);
+@import url(../blocks/sea/__container/sea__container.css);
+@import url(../blocks/sea/__image/sea__image.css);
+@import url(../blocks/sea/__paragraph/sea__paragraph.css);
+@import url(../blocks/sea/__title/sea__title.css);
+@import url(../blocks/sea/__wrapper/sea__wrapper.css);
+
+/*opinions-files*/
+@import url(../blocks/opinions/opinions.css);
+@import url(../blocks/opinions/__author/opinions__author.css);
+@import url(../blocks/opinions/__container/opinions__container.css);
+@import url(../blocks/opinions/__inscription/opinions__inscription.css);
+@import url(../blocks/opinions/__quote/opinions__quote.css);
+@import url(../blocks/opinions/__title/opinions__title.css);
+@import url(../blocks/opinions/__wrapper/opinions__wrapper.css);
+
+/*footer-files*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
