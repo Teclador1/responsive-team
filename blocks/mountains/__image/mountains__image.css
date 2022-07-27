@@ -1,0 +1,11 @@
+.mountains__image {
+    max-width: 640px;
+    height: 41.8vw;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 1280px) {
+    .mountains__image {
+        max-height: 535px;
+    }
+}

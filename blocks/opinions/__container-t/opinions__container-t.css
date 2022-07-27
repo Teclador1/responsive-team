@@ -1,0 +1,10 @@
+.opinions__container-t {
+    margin: 0 auto 130px auto;
+    max-width: 1130px;
+}
+
+@media screen and (max-width:1280px) {
+    .opinions__container-t {
+        margin: 0 6vw 130px 6vw;
+    }
+}

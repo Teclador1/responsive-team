@@ -6,11 +6,19 @@
 }
 
 @font-face {
+    font-family: "Axiforma Bold";
+    font-weight: 700;
+    font-style: normal;
+    src: url(fonts/Axiforma/Axiforma-Bold.woff2);
+}
+
+@font-face {
     font-family: "Inter Bold";
     font-weight: 700;
     font-style: normal;
-    src: url(fonts/Inter/Inter-Bold.woff2);
+    src: url(fonts/Axiforma/Inter-Bold.woff2);
 }
+
 
 @font-face {
     font-family: "Inter Black";

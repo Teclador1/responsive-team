@@ -1,0 +1,9 @@
+.mountains__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 220px;
+    max-width: 640px;
+    /* height: 531px; */
+    margin-left: 72px;
+    justify-content: space-around;
+}

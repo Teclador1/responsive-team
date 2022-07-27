@@ -1,0 +1,11 @@
+.sea__image {
+    max-width: 640px;
+    height: 41.8vw;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 1280px) {
+    .sea__image {
+        height: 535px;
+    }
+}

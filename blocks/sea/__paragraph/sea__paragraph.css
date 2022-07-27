@@ -1,0 +1,11 @@
+.sea__paragraph {
+    margin: 0 0 30px 0;
+    max-width: 380px;
+    font-family: 'Century Gothic Bold', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.sea__paragraph:last-child {
+    margin: 0;
+}

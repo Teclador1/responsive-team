@@ -1,0 +1,8 @@
+.footer__copyright {
+    margin: 0;
+    font-family: 'Axiforma Bold', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+}

@@ -47,6 +47,7 @@
 @import url(../blocks/opinions/opinions.css);
 @import url(../blocks/opinions/__author/opinions__author.css);
 @import url(../blocks/opinions/__container/opinions__container.css);
+@import url(../blocks/opinions/__container-t/opinions__container-t.css);
 @import url(../blocks/opinions/__inscription/opinions__inscription.css);
 @import url(../blocks/opinions/__quote/opinions__quote.css);
 @import url(../blocks/opinions/__title/opinions__title.css);

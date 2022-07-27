@@ -1,0 +1,7 @@
+.sea {
+    background-color: #F2F2F2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: stretch;
+    align-items: center;
+}
