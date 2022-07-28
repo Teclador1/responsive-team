@@ -1,18 +1,24 @@
 .forest__title {
-  color: #000;
-  font-family: 'Axiforma-Bold', Arial, Helvetica, sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 36px;
-  letter-spacing: 0;
-  margin: 0;
+    margin: 0;
+    font-family: 'Axiforma Bold', Arial, sans-serif;
+    font-size: 33px;
+    letter-spacing: -0.3px;
 }
 
+@media screen and (max-width: 900px) {
+    .forest__title {
+        font-size: 30px;
+    }
+}
 
-@media screen and (max-width: 650px) {
-  .forest__title {
-    text-align: center;
-    font-size: 28px;
-    line-height: 28px;
-  }
+@media screen and (max-width: 860px) {
+    .forest__title {
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .forest__title {
+        font-size: 5.3vw;
+    }
 }

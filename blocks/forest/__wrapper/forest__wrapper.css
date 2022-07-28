@@ -1,27 +1,24 @@
 .forest__wrapper {
-  width: 50%;
-  box-sizing: border-box;
-  background: #f2f2f2;
-  padding: 65px 0 0 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    max-width: 640px;
+    /* height: 531px; */
+    margin-left: 70px;
+    justify-content: space-around;
 }
 
-@media screen and (max-width: 780px) {
-  .forest__wrapper {
-    padding: 0px;
-
-  }
+@media screen and (max-width: 1180px) {
+    .forest__wrapper {
+        gap: 60px;
+        margin-left: 10px;
+    }
 }
 
-@media screen and (max-width: 650px) {
-  .forest__wrapper {
-    padding: 10px;
-
-  }
-}
-
-@media screen and (max-width: 460px) {
-  .forest__wrapper {
-    width: 100%;
-    padding: 10px 10px;
-  }
+@media screen and (max-width: 600px) {
+    .forest__wrapper {
+        margin: 30px 0;
+        text-align: center;
+        gap: 40px;
+    }
 }

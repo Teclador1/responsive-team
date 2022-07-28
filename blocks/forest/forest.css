@@ -1,13 +1,11 @@
 .forest {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: #f2f2f2;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
 }
 
-@media screen and (max-width: 460px) {
-  .forest {
-    flex-direction: column-reverse;
-  }
+@media screen and (max-width: 600px) {
+    .forest {
+        flex-direction: column;
+    }
 }

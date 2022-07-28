@@ -1,20 +1,11 @@
 .forest__container {
-  max-width: 360px;
-  margin: 190px 0 0 0;
+    max-height: 220px;
+    max-width: 380px;
 }
 
-@media screen and (max-width: 780px) {
-  .forest__container {
-    margin: 60px 0 0 0;
-  }
-
-}
-
-@media screen and (max-width: 650px) {
-  .forest__container {
-    box-sizing: border-box;
-    margin: 60px 0 0 0;
-    padding: 0 10px;
-  }
-
+@media screen and (max-width: 600px) {
+    .forest__container {
+        margin: 0 auto;
+        max-width: 530px;
+    }
 }

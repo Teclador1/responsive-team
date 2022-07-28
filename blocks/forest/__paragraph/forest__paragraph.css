@@ -1,26 +1,26 @@
 .forest__paragraph {
-  margin: 0;
-  font-family: 'Century Gothic Bold', Arial, sans-serif;
-  font-size: 14px;
-  line-height: 170%;
+    margin: 0 0 30px 0;
+    width: 380px;
+    font-family: 'Century Gothic Bold', Arial, sans-serif;
+    font-size: 14px;
+    line-height: 150%;
 }
 
 .forest__paragraph:last-child {
-  margin: 28px 0 0 0;
+    margin: 0;
 }
 
-@media screen and (max-width: 650px){
-  .forest__paragraph {
-    font-size: 12px;
-  line-height: 140%;
-
-  }
+@media screen and (max-width: 860px) {
+    .forest__paragraph {
+        font-size: 1.6vw;
+        width: 46vw;
+        margin: 0 0 15px 0;
+    }
 }
 
-@media screen and (max-width: 450px){
-  .forest__paragraph {
-    font-size: 14px;
-  line-height: 170%;
-
-  }
+@media screen and (max-width: 600px) {
+    .forest__paragraph {
+        font-size: 3vw;
+        width: 85vw;
+    }
 }
