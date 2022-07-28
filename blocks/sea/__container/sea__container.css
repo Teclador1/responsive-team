@@ -2,3 +2,10 @@
     max-height: 220px;
     max-width: 380px;
 }
+
+@media screen and (max-width: 600px) {
+    .sea__container {
+        margin: 0 auto;
+        max-width: 530px;
+    }
+}

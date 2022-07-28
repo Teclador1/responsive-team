@@ -1,7 +1,11 @@
 .sea {
     background-color: #F2F2F2;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: stretch;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+    .sea {
+        flex-direction: column;
+    }
 }

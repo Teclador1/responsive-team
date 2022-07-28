@@ -2,3 +2,9 @@
     max-width: 240px;
     margin: 0;
 }
+
+@media screen and (max-width:538px) {
+    .opinions__quote {
+        text-align: center;
+    }
+}

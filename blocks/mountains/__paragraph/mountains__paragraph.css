@@ -1,7 +1,23 @@
 .mountains__paragraph {
     margin: 0;
-    max-width: 380px;
+    width: 380px;
     font-family: 'Century Gothic Bold', Arial, sans-serif;
     font-size: 14px;
-    line-height: 170%;
+    line-height: 150%;
+}
+
+@media screen and (max-width: 860px) {
+    .mountains__paragraph {
+        font-size: 1.6vw;
+        width: 46vw;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mountains__paragraph {
+        font-size: 3vw;
+        width: 90vw;
+        margin: 0 auto;
+    }
 }

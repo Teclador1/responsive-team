@@ -2,3 +2,9 @@
     margin-top: 0;
     margin-bottom: 32px;
 }
+
+@media screen and (max-width:538px) {
+    .opinions__author {
+        text-align: center;
+    }
+}

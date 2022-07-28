@@ -4,3 +4,21 @@
     font-size: 33px;
     letter-spacing: -0.3px;
 }
+
+@media screen and (max-width: 900px) {
+    .sea__title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .sea__title {
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sea__title {
+        font-size: 5.3vw;
+    }
+}

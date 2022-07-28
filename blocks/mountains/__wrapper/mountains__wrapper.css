@@ -1,9 +1,29 @@
 .mountains__wrapper {
     display: flex;
     flex-direction: column;
-    gap: 220px;
+    gap: 145px;
     max-width: 640px;
     /* height: 531px; */
-    margin-left: 72px;
+    margin-left: 70px;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 1180px) {
+    .mountains__wrapper {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .mountains__wrapper {
+        gap: 120px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mountains__wrapper {
+        margin: 30px 0;
+        text-align: center;
+        gap: 40px;
+    }
 }

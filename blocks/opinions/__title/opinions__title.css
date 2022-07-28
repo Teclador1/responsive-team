@@ -5,3 +5,9 @@
     font-family: 'Axiforma Bold', Arial, sans-serif;
     font-size: 33px;
 }
+
+@media screen and (max-width: 538px) {
+    .opinions__title {
+        font-size: 30px;
+    }
+}

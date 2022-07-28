@@ -3,3 +3,21 @@
     font-family: 'Axiforma Bold', Arial, sans-serif;
     font-size: 33px;
 }
+
+@media screen and (max-width: 900px) {
+    .mountains__title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .mountains__title {
+        font-size: 3.5vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mountains__title {
+        font-size: 5.3vw;
+    }
+}

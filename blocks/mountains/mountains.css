@@ -1,7 +1,12 @@
 .mountains {
     background-color: #F2F2F2;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: stretch;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    .mountains {
+        flex-direction: column-reverse;
+    }
 }

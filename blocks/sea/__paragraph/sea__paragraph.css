@@ -1,6 +1,6 @@
 .sea__paragraph {
     margin: 0 0 30px 0;
-    max-width: 380px;
+    width: 380px;
     font-family: 'Century Gothic Bold', Arial, sans-serif;
     font-size: 14px;
     line-height: 150%;
@@ -8,4 +8,19 @@
 
 .sea__paragraph:last-child {
     margin: 0;
+}
+
+@media screen and (max-width: 860px) {
+    .sea__paragraph {
+        font-size: 1.6vw;
+        width: 46vw;
+        margin: 0 0 15px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sea__paragraph {
+        font-size: 3vw;
+        width: 85vw;
+    }
 }
