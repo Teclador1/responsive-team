@@ -4,3 +4,35 @@
   margin: 0 158px 0 0;
   object-fit: cover;
 }
+
+@media screen and (max-width: 1030px) {
+  .intro__image {
+    margin: 0 100px 0 0;
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .intro__image {
+    height: 300px;
+    width: 300px;
+    margin: 0 40px 0 0;
+
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .intro__image {
+    height: 360px;
+    width: 360px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .intro__image {
+    height: 320px;
+    width: 100%;
+    margin: 0;
+  }
+}

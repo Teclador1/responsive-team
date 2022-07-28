@@ -4,3 +4,24 @@
   background: #f2f2f2;
   padding: 65px 0 0 70px;
 }
+
+@media screen and (max-width: 780px) {
+  .forest__wrapper {
+    padding: 0px;
+
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .forest__wrapper {
+    padding: 10px;
+
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .forest__wrapper {
+    width: 100%;
+    padding: 10px 10px;
+  }
+}

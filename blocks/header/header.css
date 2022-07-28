@@ -1,0 +1,28 @@
+.header {
+  box-sizing: border-box;
+  padding: 46px 68px 80px;
+}
+
+@media screen and (max-width: 1030px) {
+  .header {
+    padding: 46px 30px 80px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .header {
+  padding: 46px 20px 80px;
+}
+}
+
+@media screen and (max-width: 650px) {
+  .header {
+  padding: 28px 10px 40px;
+}
+}
+
+@media screen and (max-width: 460px) {
+  .header {
+  padding: 28px 10px 60px;
+}
+}

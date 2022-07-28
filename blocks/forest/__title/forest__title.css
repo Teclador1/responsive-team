@@ -6,5 +6,13 @@
   line-height: 36px;
   letter-spacing: 0;
   margin: 0;
+}
 
+
+@media screen and (max-width: 650px) {
+  .forest__title {
+    text-align: center;
+    font-size: 28px;
+    line-height: 28px;
+  }
 }

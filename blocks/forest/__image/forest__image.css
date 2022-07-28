@@ -3,3 +3,11 @@
   max-height: 536px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 780px) {
+  .forest__image {
+    width: 320px;
+    height: 276px;
+
+  }
+}

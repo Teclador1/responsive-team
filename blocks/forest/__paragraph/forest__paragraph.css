@@ -1,0 +1,26 @@
+.forest__paragraph {
+  margin: 0;
+  font-family: 'Century Gothic Bold', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 170%;
+}
+
+.forest__paragraph:last-child {
+  margin: 28px 0 0 0;
+}
+
+@media screen and (max-width: 650px){
+  .forest__paragraph {
+    font-size: 12px;
+  line-height: 140%;
+
+  }
+}
+
+@media screen and (max-width: 450px){
+  .forest__paragraph {
+    font-size: 14px;
+  line-height: 170%;
+
+  }
+}
