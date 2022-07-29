@@ -6,7 +6,8 @@
 
 /*page-file*/
 @import url(../blocks/page/page.css);
-@import url(../blocks/animation/animation.css);
+@import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/page/__intro/page__intro.css);
 
 /*header-files*/
 @import url(../blocks/header/header.css);
@@ -20,6 +21,7 @@
 @import url(../blocks/intro/__inscription/intro__inscription.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__wrapper/intro__wrapper.css);
+@import url(../blocks/intro/__animation/intro__animation.css);
 
 /*forest-files*/
 @import url(../blocks/forest/forest.css);

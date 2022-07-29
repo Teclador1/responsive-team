@@ -1,0 +1,25 @@
+.page__intro {
+  margin: 0 160px 130px 70px;
+}
+
+@media screen and (max-width: 1000px) {
+  .page__intro {
+    margin: 0 60px 70px 30px;
+    flex-direction: column;
+
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .page__intro {
+    margin: 0 30px 70px 20px;
+    flex-direction: column;
+
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .page__intro {
+    margin: 0;
+  }
+}
