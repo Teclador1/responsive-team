@@ -1,7 +1,8 @@
 .intro__image {
-  height: 355px;
-  width: 355px;
-  margin: 0 158px 0 0;
+  height: 27.8vw;
+  width: calc(27.8vw + 12%);
+  margin: 0 160px 0 0;
+  
   object-fit: cover;
 }
 
@@ -33,6 +34,6 @@
   .intro__image {
     height: 320px;
     width: 100%;
-    margin: 0;
+    
   }
 }
