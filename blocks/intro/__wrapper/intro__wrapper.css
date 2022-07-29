@@ -1,13 +1,6 @@
 .intro__wrapper {
-  display: block;
-  padding: 0 0 0 70px;
   display: flex;
   flex-direction: column;
+  place-self: center;
 }
 
-@media screen and (max-width: 650px) {
-  .intro__wrapper {
-    padding: 0 0 0 10px;
-    
-  }
-}

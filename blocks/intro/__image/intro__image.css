@@ -1,14 +1,15 @@
 .intro__image {
-  height: 27.8vw;
-  width: calc(27.8vw + 12%);
-  margin: 0 160px 0 0;
-  
+  height: 355px;
+  width: 355px;
+  grid-column: 2;
+
   object-fit: cover;
 }
 
 @media screen and (max-width: 1030px) {
   .intro__image {
-    margin: 0 100px 0 0;
+    height: 320px;
+    width: 320px;
 
   }
 }
@@ -17,23 +18,31 @@
   .intro__image {
     height: 300px;
     width: 300px;
-    margin: 0 40px 0 0;
 
   }
 }
 
 @media screen and (max-width: 650px) {
   .intro__image {
-    height: 360px;
-    width: 360px;
-    margin: 0;
+    height: 280px;
+    width: 280px;
+
   }
 }
+
+@media screen and (max-width: 600px) {
+  .intro__image {
+    grid-column: 1;
+    place-self: center;
+
+  }
+}
+
 
 @media screen and (max-width: 460px) {
   .intro__image {
     height: 320px;
     width: 100%;
-    
+
   }
 }
