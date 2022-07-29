@@ -1,12 +1,5 @@
 .opinions {
     flex-direction: column;
-    padding: 310px 0 130px;
-    
-}
-
-@media screen and (max-width: 600px) {
-    .opinions {
-        padding: 100px 0 100px;
-    }
-
+    padding-top: 100px;
+    padding-bottom: 100px;
 }

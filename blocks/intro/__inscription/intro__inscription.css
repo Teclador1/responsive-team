@@ -1,10 +1,10 @@
 .intro__inscription {
-color: #fecda7;
-margin: 0 0 30px 0;
-font-family: 'Axiforma-Bold', Arial, Helvetica, sans-serif;
-font-size: 14px;
-animation-name: intro-inscription;
-animation-iteration-count: infinite;
-animation-duration: 4s;
-animation-direction: alternate;
+    color: #fecda7;
+    margin: 0 0 30px 0;
+    font-family: 'Dewberry Regular', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    animation-name: intro-inscription;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-direction: alternate;
 }
