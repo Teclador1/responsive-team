@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Dewberry Regular";
+    font-weight: 400;
+    font-style: normal;
+    src: url(fonts/Dewberry/Dewberry-Regular.woff2);
+}
+
+@font-face {
+    font-family: "Axiforma Bold";
+    font-weight: 700;
+    font-style: normal;
+    src: url(fonts/Axiforma/Axiforma-Bold.woff2);
+}
